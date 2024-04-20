@@ -26,7 +26,8 @@ const nextConfig = {
         headers: [
           {
             key: "Content-Security-Policy",
-            value: "script-src 'unsafe-inline'",
+            value:
+              "script-src https://zoom-chat-demo.vercel.app/ 'unsafe-inline'",
           },
         ],
       },
